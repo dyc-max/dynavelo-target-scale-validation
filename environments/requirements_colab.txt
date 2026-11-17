@@ -1,0 +1,10 @@
+# Install CUDA Torch first from its official cu121 index, then this file.
+# Isolated project venv only; no system-site-packages.
+torch==2.5.1
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+anndata==0.10.9
+h5py==3.12.1
+torchmetrics==1.6.1
+torchdiffeq==0.2.5
