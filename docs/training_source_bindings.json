@@ -1,0 +1,41 @@
+[
+  {
+    "path": "repo/colab/colab_training.py",
+    "sha256": "c70c59817b13b4553318ae3e24c59a9c56811bd941e6534c455b3fbfeec4b2c7",
+    "bindings": [
+      "F_seed0:training_implementation_sha256"
+    ]
+  },
+  {
+    "path": "repo/colab/train_hspc_colab.py",
+    "sha256": "f611477ceb94776c0e3aa7982a55bfa42eb006abd3dd9abc3930a44999b01aa7",
+    "bindings": [
+      "F_seed0:script_sha256"
+    ]
+  },
+  {
+    "path": "repo/pipeline/train_hspc.py",
+    "sha256": "41950d69ad83e4496eff3fa1d3b64d7308807345f10049b963b1f2d183346163",
+    "bindings": [
+      "F_seed0:source_Windows_trainer_sha256",
+      "F_seed1:source_Windows_trainer_sha256",
+      "F_seed2:source_Windows_trainer_sha256"
+    ]
+  },
+  {
+    "path": "repo/pipeline/train_hspc_local_resume.py",
+    "sha256": "e6b810b1da4448135646a90db3d9e4dffeafb5382c43e6648e9e9893a56e71a5",
+    "bindings": [
+      "F_seed1:script_sha256",
+      "F_seed1:training_implementation_sha256"
+    ]
+  },
+  {
+    "path": "repo/pipeline/train_hspc_local_seed2_recovery.py",
+    "sha256": "029be94753f120f2ee189c52bafda8fe31ea59351908ba7a205ebeda716b9638",
+    "bindings": [
+      "F_seed2:script_sha256",
+      "F_seed2:training_implementation_sha256"
+    ]
+  }
+]

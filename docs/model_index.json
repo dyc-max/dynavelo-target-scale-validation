@@ -1,0 +1,107 @@
+[
+  {
+    "seed": 0,
+    "checkpoint_path": "checkpoints/GSE284047/8489-MV-1_cuda_seed0_20261112T131938278584Z/GSE284047_8489-MV-1_cuda_seed0_20261112T131938278584Z_DynaVelo_num_hidden_200_zxdim_50_zydim_50_k_z0_1000_k_t_1000_k_velocity_10000_k_consistency_10000_seed_0.pth",
+    "checkpoint_sha256": "dde1af91ae8d04ec7dd918c66aacf8ee25d49843aedfc05ea967b73062e2f3c0",
+    "selection": {
+      "completed_epochs": 90,
+      "own_best_epoch": 80,
+      "own_mapped_validation_loss": 33833.59186645609,
+      "selection_rule": "Own mapped validation loss, original last-equal-min tie; not selected using factual reevaluation"
+    },
+    "architecture": {
+      "alpha_pt": 2,
+      "beta_pt": 2,
+      "k_consistency": 10000,
+      "k_t": 1000,
+      "k_velocity": 10000,
+      "k_z0": 1000,
+      "mu_pz0": 0,
+      "num_hidden": 200,
+      "sigma_pz0": 1,
+      "sigma_x": 0.1,
+      "sigma_y": 0.1,
+      "time_variant": false,
+      "zx_dim": 50,
+      "zy_dim": 50
+    },
+    "training_versions": {
+      "anndata": "0.10.9",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "torch": "2.5.1+cu121",
+      "torchdiffeq": "0.2.5",
+      "torchmetrics": "1.6.1"
+    }
+  },
+  {
+    "seed": 1,
+    "checkpoint_path": "checkpoints/GSE284047/8489-MV-1_xpu_seed1_20261113T011146113329Z/model_best.pth",
+    "checkpoint_sha256": "58ff1577fbe36a16033d29e30afe84638f1e501465294ae9af3a6ec40b11590c",
+    "selection": {
+      "completed_epochs": 116,
+      "own_best_epoch": 106,
+      "own_mapped_validation_loss": 33694.482679163215,
+      "selection_rule": "Own mapped validation loss, original last-equal-min tie; not selected using factual reevaluation"
+    },
+    "architecture": {
+      "alpha_pt": 2,
+      "beta_pt": 2,
+      "k_consistency": 10000,
+      "k_t": 1000,
+      "k_velocity": 10000,
+      "k_z0": 1000,
+      "mu_pz0": 0,
+      "num_hidden": 200,
+      "sigma_pz0": 1,
+      "sigma_x": 0.1,
+      "sigma_y": 0.1,
+      "time_variant": false,
+      "zx_dim": 50,
+      "zy_dim": 50
+    },
+    "training_versions": {
+      "anndata": "0.10.9",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "torch": "2.10.0+xpu",
+      "torchdiffeq": "0.2.5",
+      "torchmetrics": "1.6.1"
+    }
+  },
+  {
+    "seed": 2,
+    "checkpoint_path": "checkpoints/GSE284047/8489-MV-1_xpu_seed2_20261114T011355086387Z/model_best.pth",
+    "checkpoint_sha256": "70f3c44530abc5fbf09c8bef4a7d26a0f9da2bfff32668ffe29758e8007510a5",
+    "selection": {
+      "completed_epochs": 137,
+      "own_best_epoch": 127,
+      "own_mapped_validation_loss": 33620.49215190037,
+      "selection_rule": "Own mapped validation loss, original last-equal-min tie; not selected using factual reevaluation"
+    },
+    "architecture": {
+      "alpha_pt": 2,
+      "beta_pt": 2,
+      "k_consistency": 10000,
+      "k_t": 1000,
+      "k_velocity": 10000,
+      "k_z0": 1000,
+      "mu_pz0": 0,
+      "num_hidden": 200,
+      "sigma_pz0": 1,
+      "sigma_x": 0.1,
+      "sigma_y": 0.1,
+      "time_variant": false,
+      "zx_dim": 50,
+      "zy_dim": 50
+    },
+    "training_versions": {
+      "anndata": "0.10.9",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "torch": "2.10.0+xpu",
+      "torchdiffeq": "0.2.5",
+      "torchmetrics": "1.6.1"
+    }
+  }
+]
