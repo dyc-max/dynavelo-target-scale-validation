@@ -1,0 +1,12 @@
+{
+  "author": "DuanYuChen",
+  "version": "1.0.0",
+  "suggested_repository_name": "dynavelo-target-scale-validation",
+  "repository_url": "https://github.com/dyc-max/dynavelo-target-scale-validation",
+  "zenodo_record_url": "https://zenodo.org/records/24305323",
+  "zenodo_record_doi": "10.5281/zenodo.24305323",
+  "orcid": null,
+  "code_license": "MIT",
+  "study_generated_data_license": "CC-BY-4.0",
+  "publication_status": "Zenodo DOI reserved; upload in progress"
+}
