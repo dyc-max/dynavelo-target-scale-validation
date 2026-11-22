@@ -2,7 +2,7 @@
 
 ## What can be checked without scientific re-analysis
 
-1. Check every deposited byte against FILE_MANIFEST.tsv.
+1. Check the numbered archive payloads against `FILE_MANIFEST.tsv` and the deposited files against `SHA256SUMS.tsv`.
 2. Inspect all complete source tables and archived model/score parameters.
 3. Verify checkpoint identities against S3 and `model_index.json`.
 4. Inspect all 9,018 completed GRNBoost2 outputs and committed fit records.
@@ -47,13 +47,12 @@ preserved; exact training-process replay across devices is not certified.
   to the separate primary matrix.
 - GRNBoost2 archives contain full predictor-level importance outputs and fit
   metadata, not serialized estimator/tree objects.
-- Existing target-set deletion summaries and T-cell point estimates do not have
-  the missing per-candidate deletion tables/original author-result row reconstructed.
+- Historical DC target-set deletion summaries have incomplete per-candidate tabulations. The later manuscript Supplementary Information (S4.6) documents the verified source coordinates for the T-cell effects.
 - No raw FASTQ/BAM, clinical identifiers, cloud credentials, job-control tokens or
   account configuration files are intentionally included.
 
 ## Publication links
 
-The repository is https://github.com/dyc-max/dynavelo-target-scale-validation. The associated dataset DOI is
-https://doi.org/10.5281/zenodo.24305323, reserved for the Zenodo record. Scientific outputs
-remain the frozen manuscript versions; publication metadata updates are separate.
+The [frozen code release](https://github.com/dyc-max/dynavelo-target-scale-validation/releases/tag/v1.1.0) accompanies [Zenodo data archive 1.1.0](https://doi.org/10.5281/zenodo.24437365). The version includes the [Section S11 scripts and tables](https://github.com/dyc-max/dynavelo-target-scale-validation/releases/download/v1.1.0/DynaVelo_Section_S11_Reproducibility.zip). Its README describes a replay using the packaged inputs for the perturbation benchmark, overlap test and cell-cycle analysis.
+
+The Zenodo file `07_source_tables_and_scripts.zip` preserves the frozen figure-source tables and numerical provenance scripts. The `06_external_validation.zip` payload is available as six transport parts. Follow the [reassembly instructions](https://zenodo.org/records/24437365/files/EXTERNAL_VALIDATION_TRANSPORT.md?download=1) before invoking the original deposit verifier.
