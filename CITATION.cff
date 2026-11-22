@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this software release and the DynaVelo publication; the associated dataset DOI is 10.5281/zenodo.24305323."
+message: "Please cite this software release and the DynaVelo publication; the associated dataset DOI is 10.5281/zenodo.24437365."
 title: "Target-scale diagnosis and orthogonal validation of DynaVelo kinetic sensitivity"
 authors:
   - name: "DuanYuChen"
-version: "1.0.0"
+version: "1.1.0"
 license: "MIT"
 keywords:
   - single-cell transcriptomics
